@@ -5,7 +5,7 @@ import plotly_express as px
 st.header('Esse é o meu primeiro aplicativo web')
 st.header('O app foi feito utilizando :red[**Streamlit**] 	:star2:')
 
-car_data = pd.read_csv('C:/Users/Felipe/Projetos_pessoais/test_vscode/notebooks/vehicles.csv') # lendo os dados
+car_data = pd.read_csv('notebooks/vehicles.csv') # lendo os dados
 hist_button = st.button('Criar histograma')
 
 if hist_button:
