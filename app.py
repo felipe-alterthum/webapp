@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly_express as px
 
-st.header('Esse é o meu primeiro aplicativo web', divider ='blue')
+st.header('Esse é o meu primeiro aplicativo web')
 st.header('O app foi feito utilizando :red[**Streamlit**] 	:star2:')
 
 car_data = pd.read_csv('C:/Users/Felipe/Projetos_pessoais/test_vscode/notebooks/vehicles.csv') # lendo os dados
